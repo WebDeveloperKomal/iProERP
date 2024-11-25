@@ -5366,7 +5366,7 @@ blockquote::before {
 @media only screen and (max-width:1199px) {
     .container-fluid {
         padding-left: 15px;
-        padding-right: 15px;
+        padding-right: 45px;
     }
     .menu-primary>li.menu-item>a {
         padding: 0px 5px;
@@ -6043,7 +6043,7 @@ blockquote::before {
         display: none;
     }
     .page-header.dc-six::before {
-        width: 130%;
+        width: 125%;
         left: -30%;
     }
     .page-header.dc-seven::before {
