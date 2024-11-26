@@ -1067,6 +1067,7 @@ textarea.form-control {
     margin: 0;
     cursor: pointer;
     height: 3em;
+    left: -27px;
     width: 3em;
     font-size: 12px;
     transition: all .2s;
@@ -1578,7 +1579,8 @@ textarea.form-control {
 
 .heading-wrapper.with-separator h1:after,
 .heading-wrapper.with-separator h2:after,
-.heading-wrapper.with-separator h3:after {
+.heading-wrapper.with-separator h3:after,
+.heading-wrapper.with-separator h4:after {
     height: 6px;
     width: 60px;
     content: "";
@@ -3764,7 +3766,7 @@ ul.three-col li {
 }
 
 .copyright-bar {
-    padding: 20px 0px;
+    padding: 20px 36px;
     font-size: 16px;
     /* border-top: 1px solid rgba(0, 0, 0, 0.1); */
 }
@@ -5539,7 +5541,7 @@ blockquote::before {
         margin: 30px 0px;
     }
     .footer-theme-one .main-footer {
-        padding: 30px 0px 70px;
+        padding: 30px 0px 0px;
     }
     .footer-theme-one .footer-logo {
         top: -160px;
@@ -7387,7 +7389,7 @@ span.text {
     #master-head.menu-fixed {
         height: 88px;
         padding: 0px !important;
-        width: 470px;
+        width: 426px;
         margin: 0px !important;
     }
 }

@@ -231,7 +231,8 @@ a {
 
 .heading-wrapper.with-separator h1:after,
 .heading-wrapper.with-separator h2:after,
-.heading-wrapper.with-separator h3:after {
+.heading-wrapper.with-separator h3:after,
+.heading-wrapper.with-separator h4:after {
     background: -moz-linear-gradient(left, #ff9900 0%, #ff9900 100%);
     background: -webkit-gradient(left top, right top, color-stop(0%, #ff9900), color-stop(100%, #ff9900));
     background: -webkit-linear-gradient(left, #ff9900 0%, #ff9900 100%);
