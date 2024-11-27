@@ -32,6 +32,7 @@
 
     <link rel="canonical" href="Register.html" />
     <link rel="shortlink" href="Register.html" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 
 <body style=" background: #fdfdfd url('images/bg-texture.avif') repeat;">
@@ -398,14 +399,82 @@
                                             <input type="text" class="form-control" id="companyname" placeholder="Company Name" required="">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="inquiringcompanyname" placeholder="Inquiring Company Name*" required="">
-                                        </div>
-                                        <div class="form-group">
                                             <input type="text" class="form-control" id="mobile" placeholder="Mobile Number*" required="">
                                         </div>
                                         <div class="form-group">
-                                            <input type="text" class="form-control" id="industrytype*" placeholder="Industry Type*" required="">
+                                            <!-- Dropdown for book name -->
+                                            <select class="form-control" id="BookName" required="">
+                                                <option value="" disabled selected>
+                                                    Industry Type*</option> <!-- Default option -->
+                                                <option value="Manufacturing">Manufacturing</option>
+                                                <option value="Distribution">Distribution</option>
+                                                <option value="Other">Other</option>
+                                            </select>
                                         </div>
+
+                                        <div class="form-group">
+                                            <!-- Dropdown for state selection -->
+                                            <select class="form-control" id="StateName" required="">
+                                                <option value="" disabled selected>State*</option>
+                                                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                                <option value="Assam">Assam</option>
+                                                <option value="Bihar">Bihar</option>
+                                                <option value="Chhattisgarh">Chhattisgarh</option>
+                                                <option value="Goa">Goa</option>
+                                                <option value="Gujarat">Gujarat</option>
+                                                <option value="Haryana">Haryana</option>
+                                                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                                <option value="Jharkhand">Jharkhand</option>
+                                                <option value="Karnataka">Karnataka</option>
+                                                <option value="Kerala">Kerala</option>
+                                                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                                <option value="Maharashtra">Maharashtra</option>
+                                                <option value="Manipur">Manipur</option>
+                                                <option value="Meghalaya">Meghalaya</option>
+                                                <option value="Mizoram">Mizoram</option>
+                                                <option value="Nagaland">Nagaland</option>
+                                                <option value="Odisha">Odisha</option>
+                                                <option value="Punjab">Punjab</option>
+                                                <option value="Rajasthan">Rajasthan</option>
+                                                <option value="Sikkim">Sikkim</option>
+                                                <option value="Tamil Nadu">Tamil Nadu</option>
+                                                <option value="Telangana">Telangana</option>
+                                                <option value="Tripura">Tripura</option>
+                                                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                                <option value="Uttarakhand">Uttarakhand</option>
+                                                <option value="West Bengal">West Bengal</option>
+                                                <option value="Andaman and Nicobar Islands">Andaman and Nicobar Islands</option>
+                                                <option value="Chandigarh">Chandigarh</option>
+                                                <option value="Dadra and Nagar Haveli and Daman and Diu">Dadra and Nagar Haveli and Daman and Diu</option>
+                                                <option value="Lakshadweep">Lakshadweep</option>
+                                                <option value="Delhi">Delhi</option>
+                                                <option value="Puducherry">Puducherry</option>
+                                                <option value="Ladakh">Ladakh</option>
+                                                <option value="Lakshadweep">Lakshadweep</option>
+                                            </select>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <!-- Dropdown for book name -->
+                                            <select class="form-control" id="BookName" required="">
+                                                <option value="" disabled selected>
+                                                    Industry*</option> <!-- Default option -->
+                                                <option value="Distribution"> Aerospace</option>
+                                                <option value="Automotive Parts & Accessories">Automotive Parts & Accessories </option>
+                                                <option value="Chemicals & Fertilizers">Chemicals & Fertilizers</option>
+                                                <option value="Electronics">Electronics</option>
+                                                <option value="Fabricated Metal">Fabricated Metal</option>
+                                                <option value="Food & Beverage">Food & Beverage</option>
+                                                <option value="Furniture and Fittings">Furniture and Fittings</option>
+                                                <option value="Industrial Machinery & Equipment">Industrial Machinery & Equipment</option>
+                                                <option value="Medical Devices">Medical Devices</option>
+                                                <option value="Packaging">Packaging</option>
+                                                <option value="Plastics & Rubber">Plastics & Rubber</option>
+                                                <option value="Other">Other</option>
+                                            </select>
+                                        </div>
+
 
                                         <p>The information you provide to iProERP is only used for communication with you directly. We will not on-sell your information to any 3rd parties or share your data with anyone outside of iProERP. iProERP will not
                                             spam you or communicate with you other than for the express purposes you have specified in the form. For further information please see our <a href="Privacy-Policy.html">
